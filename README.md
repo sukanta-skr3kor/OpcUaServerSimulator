@@ -1,2 +1,2 @@
-# OpcUaServerSimulator
- 
+# OPCUASimulator
+ OpcUaServerSimulator

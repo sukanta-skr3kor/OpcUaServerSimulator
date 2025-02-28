@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPCUA.Server.Simulator", "OPCUA.Server.Simulator.csproj", "{78B92245-999A-1C46-5019-5DCAFA11EFB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B92245-999A-1C46-5019-5DCAFA11EFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B92245-999A-1C46-5019-5DCAFA11EFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B92245-999A-1C46-5019-5DCAFA11EFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B92245-999A-1C46-5019-5DCAFA11EFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {342ADB5F-F37B-40AC-A730-48A2E9A194BD}
+	EndGlobalSection
+EndGlobal

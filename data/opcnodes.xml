@@ -1,0 +1,20 @@
+﻿<OpcUaHierarchy>
+	<!--Folder represents an OPCUA Object -->
+	<!--Variable represents an OPCUA Tag/Variable -->
+	<Folder Name="Plant1">
+		<Folder Name="AssemblyLine1">
+			<Variable Name="Temperature" DataType="Double" InitialValue="25.5" MaxValue="80"/>
+			<Variable Name="Pressure" DataType="Double" InitialValue="1.2" MaxValue="20"/>
+			<Variable Name="67bc0e12-6518-8012-910c-68c88edfea57" DisplayName="Humidity" DataType="Double" InitialValue="20.5"/>
+		</Folder>
+		<Folder Name="AssemblyLine2">
+			<Folder Name="Motor">
+				<Variable Name="RPM" DataType="Double" InitialValue="45.0" MaxValue="50"/>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder Name="Plant2">
+		<Variable Name="RunningStatus" DataType="Boolean" InitialValue="true" IsStatic="true"/>
+		<Variable Name="ProductionCount" DataType="Integer" InitialValue="0" MaxValue="100"/>
+	</Folder>
+</OpcUaHierarchy>
